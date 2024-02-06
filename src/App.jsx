@@ -5,6 +5,7 @@ import Slider from './Components/Slider'
 import Category from './Components/Category'
 import About from './Components/About'
 import Services from './Components/Services'
+import Tutorials from './Components/Tutorials'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Category />
       <About />
       <Services />
+      <Tutorials />
     </div>
   )
 }

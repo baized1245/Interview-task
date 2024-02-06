@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Components/Header'
 import Navbar from './Components/Navbar'
 import Slider from './Components/Slider'
+import Category from './Components/Category'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Navbar />
       <Slider />
+      <Category />
     </div>
   )
 }

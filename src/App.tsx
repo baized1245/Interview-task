@@ -1,7 +1,9 @@
+import MainLayout from "./components/mainLayout/MainLayout";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-center">Hello, App!</h1>
+    <div className="max-w-7xl mx-auto xl:px-20 md:px-2 px-4">
+      <MainLayout />
     </div>
   );
 };
